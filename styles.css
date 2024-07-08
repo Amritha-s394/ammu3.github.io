@@ -1,0 +1,34 @@
+body,h1,p{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial,  sans-serif;
+    line-height: 1.6;
+}
+main{
+    padding:2rem;
+}
+.profile{
+    display:flex;
+}
+.photo{
+    flex:auto;
+}
+.photo img{
+    display: flex;
+}
+.bio{
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 2rem;
+
+}
+@media screen and (max-width:768px){
+    profile{
+        flex-direction: column;
+    }
+}
